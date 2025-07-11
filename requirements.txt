@@ -1,11 +1,10 @@
 streamlit
 speechrecognition
 gtts
+tensorflow==2.14.0
+transformers==4.36.2
+googletrans==4.0.0rc1
 numpy
 pandas
-scikit-learn
-matplotlib
 opencv-python
-googletrans
-transformers
-tensorflow
+scikit-learn
