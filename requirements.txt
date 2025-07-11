@@ -1,0 +1,7 @@
+streamlit
+speechrecognition
+numpy
+pandas
+scikit-learn
+matplotlib
+opencv-python
