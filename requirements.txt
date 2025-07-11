@@ -1,9 +1,9 @@
 streamlit
 speechrecognition
 gtts
-torch
-transformers==4.36.2
 tensorflow==2.14.0
+torch==2.1.0
+transformers==4.36.2
 googletrans==4.0.0rc1
 numpy
 pandas
