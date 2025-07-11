@@ -127,7 +127,7 @@ def predict_crop(file):
 # ----------------- Fill-Mask Model -----------------
 @st.cache_resource
 def load_fill_mask_model():
-   return pipeline('text2text-generation', model='google/flan-t5-small')
+   return pipeline('text2text-generation', model='google/flan-t5-small',framework='pt')
 
 
 local_model = load_local_model()
